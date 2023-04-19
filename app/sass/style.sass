@@ -1,9 +1,199 @@
 @import "vars"
 @import "fonts"
 
+* 
+    box-sizing: border-box
+body 
+    margin: 0
+    min-height: 100vh
+    font-family: 'Roboto', sans-serif
+    font-size: 17px
+    background: #525659
+
+.invoice-wrapper 
+    width: 1084px
+    margin-left: auto 
+    margin-right: auto 
+    padding-top: 50px
+    padding-bottom: 53px
+    padding-left: 74px 
+    padding-right: 66px
+    background: #fff
+    min-height: 100vh
+    box-sizing: border-box
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8)
+    font-weight: 400
+.invoice__title
+    text-align: center
+    font-size: 39px 
+    font-weight: 700
+    margin-bottom: 17px
+.invoice__sub-title
+    text-align: center
+    font-style: italic
+    font-weight: 600
+    font-size: 21px
+
+.invoice__head
+    display: flex 
+    justify-content: flex-end
+    padding-top: 28px
+.invoice__head-col
+    text-align: right
+    width: 65px
+.invoice__head-row
+    display: flex 
+    padding-bottom: 8px
+.invoice__head-col2
+    width: 192px  
+    text-align: right
+    font-weight: 700
 
 
 
+.info-wrapper
+    display: flex 
+    justify-content: space-between
+    padding-top: 22px
+    padding-bottom: 32px
+    padding-left: 3px 
+    padding-right: 3px
+.info-content-item
+    border: 2px solid #2a2a2a
+    
+.info-content-item:first-child 
+   width: 465px
+.info-content-item:nth-child(2)
+    width: 460px
+
+.info-content-item
+    min-height: 175px
+    border-radius: 10px
+    padding: 4px 4px
+.info-content__row
+    display: flex
+    padding-bottom: 3.5px
+.info-content__col--first
+    width: 115px
+.invoice-table
+    border: 2px solid #2a2a2a
+    font-size: 17px
+    margin-bottom: 43px
+.invoice-table-row
+    height: 24px
+    border-bottom: 2px solid #2a2a2a
+    display: flex 
+    justify-content: space-between
+    align-items: center
+.invoice-table-row:last-child 
+    border-bottom: none
+.invoice-table-row--head
+    text-align: center
+    font-weight: 600
+    background: #afafaf
+    .invoice-table-col
+        justify-content: center
+        
+.invoice-table-col
+    border-right: 2px solid #2a2a2a
+    height: 100%
+    display: flex
+    align-items: center
+.invoice-table-col-num
+    min-width: 44px
+.invoice-table-col:last-child  
+    border-right: none
+.invoice-table-col--code
+    min-width: 101px
+.invoice-table-col--3
+    width: 370px
+.invoice-table-col--4
+    width: 84px
+.invoice-table-col--5
+    width: 117px
+.invoice-table-col--6
+    width: 111px
+.invoice-table-col--7
+    width: 117px
+.text-center 
+    justify-content: center
+.text-right
+    justify-content: flex-end
+.invoice-table-col
+    padding-left: 2px
+    padding-right: 2px
+.invoice__footer
+    padding-top: 0
+    width: auto
+    .invoice__head-row 
+        padding-bottom: 4px
+        
+    .invoice__head-col:first-child 
+        width: 145px
+    .invoice__head-col2
+        width: 170px
+        font-weight: 400
+    .invoice__head-row:last-child 
+        font-weight: 600
+        .invoice__head-col2
+            font-weight: 600
+.word-row
+    padding-top: 47px
+    display: flex
+    span 
+        font-weight: 600
+        margin-right: 20px
+.line-table
+    margin-top: 16px
+    border: dashed #2a2a2a
+    display: flex
+.line-table-col--first
+    width: 538px
+    border-right: dashed #2a2a2a
+.line-table-col
+    padding-left: 4px
+    padding-top: 3px 
+    padding-bottom: 0px
+.line-table-item-title
+    min-width: 250px
+.line-table-row
+    display: flex
+    padding-bottom: 4px
+.line-table-col--second
+    .line-table-item-title
+        min-width: 105px
+.line-table--footer
+    border: none 
+    margin-top: 0
+    font-style: italic
+    
+    .line-table-col--first
+        border-right: none
+        .line-table-item-title 
+            min-width: 82px
+.note 
+    font-size: 11.3px
+    padding-top: 14px
+    padding-bottom: 476px
+.qr 
+    width: 150px
+.invoice-footer
+    display: flex 
+.invoice-footer__content
+    margin-left: 18px   
+    border-top: 2px solid #2a2a2a
+    width: 100%
+    margin-top: 10px
+    padding-top: 18px
+    font-size: 14.7px
+    display: flex
+    justify-content: space-between
+.invoice-footer__contact
+    display: flex
+    flex-direction: column
+    align-items: flex-end
+.invoice-footer__item
+    padding-bottom: 2px
 @import "media"
 
 
